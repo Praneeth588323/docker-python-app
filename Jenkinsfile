@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage(build and push){
+        stage(buildandpush){
             steps{
                 sh ```
                 whoami
